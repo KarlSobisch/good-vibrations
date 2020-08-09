@@ -1,0 +1,18 @@
+name: good-vibrations
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.8
+  - scipy=1.5.2
+  - pandas=1.0.3
+  - jupyter
+  - seaborn=0.10.0
+  - PyYAML=5.3.1
+  - scikit-learn=0.23.1
+  - pip
+  - pip:
+      - tensorflow==2.2
+      - sounddevice==0.4.0
+      - soundfile==0.10.2
